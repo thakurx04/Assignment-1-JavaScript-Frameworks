@@ -2,12 +2,12 @@ const portfolioData = {
   profile: {
     name: "Sirat Thakur",
     title: "Computer Programming Student",
-    summary: "Student at George Brown College learning full-stack development."
+    summary: "Student at Georgian College learning full-stack development."
   },
 
   about: {
     description:
-      "I am a Computer Programming student at George Brown College with an interest in backend development and APIs."
+      "I am a Computer Programming student at Georgian College with an interest in backend development and APIs."
   },
 
   projects: [

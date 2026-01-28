@@ -5,7 +5,7 @@ It provides JSON endpoints for profile information, about details, projects,
 and allows users to submit contact messages.
 
 This project was created as part of Assignment 1 for JavaScript Frameworks
-at George Brown College.
+at Georgian College.
 
 ---
 
@@ -42,7 +42,7 @@ Invoke-RestMethod `
 -Uri http://localhost:3000/api/contact `
 -Method POST `
 -ContentType "application/json" `
--Body '{"name":"Sirat Thakur","email":"sirat@email.com","message":"Hello"}'
+-Body '{"name":"Sirat Thakur","email":"sirat@gmail.com","message":"Hello"}'
 
 ---
 
@@ -56,4 +56,4 @@ Invoke-RestMethod `
 ## Author
 Sirat Thakur  
 Computer Programming Student  
-George Brown College
+Georgian College
