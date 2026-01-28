@@ -1,11 +1,11 @@
 const express = require("express");
+const routes = require("./routes");
 
 const app = express();
 
-// Built-in middleware to parse JSON
 app.use(express.json());
+app.use(routes);
 
-// Basic test route
 app.get("/", (req, res) => {
   res.json({ message: "Portfolio API is running" });
 });
